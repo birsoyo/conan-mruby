@@ -17,4 +17,4 @@ install:
   - choco install winflexbison3
 
 test_script:
-  - sesame build --upload
+  - sesame build --windows --emscripten --upload
